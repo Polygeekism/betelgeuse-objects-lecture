@@ -28,7 +28,7 @@ var people =[
 function nameAnimal(arr){
 for (var j = 0; j < arr.length; j++) {
     var sentenceBuilder = arr[j];
-    console.log(sentenceBuilder.name+'\'s favorite animal is the '+ sentenceBuilder.favoriteAnimal);
+    console.log(sentenceBuilder.name+'\'s favorite animal is the '+ sentenceBuilder.favoriteAnimal + '.');
 }
 }
 nameAnimal(people);
